@@ -1,0 +1,66 @@
+.input-container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-container input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+  }
+  
+  .input-container button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+  }
+  
+  .filter-options {
+    margin: 10px 0;
+  }
+  
+  .filter-options option {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .filter-options option:hover {
+    background-color: #ddd;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
